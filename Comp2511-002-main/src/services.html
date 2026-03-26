@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="News about the progress of web api development, as well as a platform to commission my services.">
+        <meta name="keywords" content="news updates css html javascript development">
+        <meta name="author" content="Jemma Starecki">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Page Icon: https://www.svgrepo.com/svg/530444/availability -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.svg">
+		<title>Jemma Starecki's Web Design Boutique | Services</title>
+
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=favorite,home,search,settings"> -->
+
+        <link rel="stylesheet" href="style/main.css">
+
+        <script src="script/jquery-4.0.0.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- https://stock.adobe.com/search?k=%2522web%2Bdesign%2Blogo%2522&asset_id=85732813 -->
+            <img src="assets/img/adobestock_webdesign_logo.jpg" alt="Jemma Starecki Web Design Boutique Logo" title="Website Logo" id="websiteLogo" class="thumbnail">
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" aria-current="page">Services</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav class="container sidebar" aria-label="Secondary">
+            <h3>Page Navigation</h3>
+            <ul>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#services">Service Features</a></li>
+                <li><a href="#tos">Terms of Service</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <section class="container" id="pricing" aria-labelledby="pricing-heading">
+                <h1 id="pricing-heading">Pricing</h1>
+
+                <div class="pricing-grid">
+                    <article class="pricing-card" id="starter">
+                        <header class="pricing-header">
+                            <h2>Starter</h2>
+                            <p class="pricing-tagline">Small Sites, Portfolios, Landing Pages</p>
+                        </header>
+
+                        <div class="pricing-price">
+                            <span class="price">CA$500+</span>
+                            <span class="price-note">One-Time</span>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>1-3 Pages</li>
+                            <li>Responsive Layout</li>
+                            <li>Limited Custom Styling</li>
+                            <li>Basic Accessibility</li>
+                            <li>One Round of Revisions</li>
+                        </ul>
+
+                        <footer class="pricing-actions">
+                            <a href="contact.html" class="button primary">Get Started</a>
+                        </footer>
+                    </article>
+
+                    <article class="pricing-card" id="professional">
+                        <header class="pricing-header">
+                            <h2>Professional</h2>
+                            <p class="pricing-tagline">Startups, Small Businesses</p>
+                        </header>
+                        
+                        <div class="pricing-price">
+                            <span class="price">CA$2000+</span>
+                            <span class="price-note">One-Time</span>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Up to 8 Pages</li>
+                            <li>Responsive Layout</li>
+                            <li>Full Custom Styling</li>
+                            <li>Enhanced Accessibility</li>
+                            <li>Three Rounds of Revisions</li>
+                            <li>More... (See Below)</li>
+                        </ul>
+
+                        <footer class="pricing-actions">
+                            <a href="contact.html" class="button primary">Get Started</a>
+                        </footer>
+                    </article>
+
+                    <article class="pricing-card" id="enterprise">
+                        <header class="pricing-header">
+                            <h2>Enterprise</h2>
+                            <p class="pricing-tagline">Products, Platforms, Long-Term Projects</p>
+                        </header>
+
+                        <div class="pricing-price">
+                            <span class="price">CA$4500+</span>
+                            <span class="price-note">One-Time</span>
+                        </div>
+
+                        <ul class="pricing-features">
+                            <li>Unlimited Pages</li>
+                            <li>Responsive Layout</li>
+                            <li>Full Custom Styling</li>
+                            <li>Full-Audit Accessibility</li>
+                            <li>Flexible Revisions</li>
+                            <li>More... (See Below)</li>
+                        </ul>
+
+                        <footer class="pricing-actions">
+                            <a href="contact.html" class="button primary">Get Started</a>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="container" id="services" aria-labelledby="services-heading">
+                <h1 id="services-heading">Services</h1>
+                
+                <div class="table-wrapper">
+                    <p class="note">Prices are Subject to Change</p>
+                    <table class="services-table">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Service Feature Comparison</th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Feature</th>
+                                <th scope="col">Starter</th>
+                                <th scope="col">Professional</th>
+                                <th scope="col">Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Pricing</th>
+                                <td>Starts at CA$500</td>
+                                <td>Starts at CA$2000</td>
+                                <td>Starts at CA$4500</td>
+                            </tr>
+
+                            <tr class="section-row">
+                                <th colspan="4">Core Website Features</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Number of Pages</th>
+                                <td>1-3</td>
+                                <td>Up to 8</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Responsive Design</th>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mobile-First Layout</th>
+                                <td>Basic</td>
+                                <td>Optimised</td>
+                                <td>Fully Customised</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Custom Styling</th>
+                                <td>Limited</td>
+                                <td>Full</td>
+                                <td>Full + Brand System</td>
+                            </tr>
+
+                            <tr class="section-row">
+                                <th colspan="4">Accessibility &amp; Standards</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Semantic HTML</th>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ARIA &amp; Screen Reader Support</th>
+                                <td>Basic</td>
+                                <td>Enhanced</td>
+                                <td>Full Audit</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">WCAG Compliance Target</th>
+                                <td>Partial</td>
+                                <td>WCAG 2.1 AA</td>
+                                <td>WCAG 2.2 AA+</td>
+                            </tr>
+
+                            <tr class="section-row">
+                                <th colspan="4">Development &amp; Architecture</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Frontend Architecture</th>
+                                <td>Static HTML / CSS</td>
+                                <td>Component-Based</td>
+                                <td>Scalable System</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Javascript Functionality</th>
+                                <td>Minimal</td>
+                                <td>Moderate</td>
+                                <td>Advanced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Backend Integration</th>
+                                <td>—</td>
+                                <td>Basic</td>
+                                <td>Advanced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">API Design / Integration</th>
+                                <td>—</td>
+                                <td>Basic</td>
+                                <td>Advanced / Custom</td>
+                            </tr>
+
+                            <tr class="section-row">
+                                <th colspan="4">Workflow &amp; Support</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Revision Rounds</th>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>Flexible</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Client Collaboration</th>
+                                <td>Basic</td>
+                                <td>Detailed</td>
+                                <td>Full Technical Docs</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Post-Launch Support</th>
+                                <td>—</td>
+                                <td>30 Days</td>
+                                <td>Extended / Retainer</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <details class="services-explanation">
+                    <summary>How to Read This Table</summary>
+                    
+                    <h2>How to Read This Table</h2>
+                    <p>
+                        Each tier builds on the previous one. Higher tiers do not replace features, instead expanding the scope, depth, and long-term maintainability.
+                    </p>
+
+                    <h3>Starter</h3>
+                    <p>
+                        Ideal for portfolios, landing pages, and small static sites. Focused on clean presentation, responsiveness, and essential accessibility.
+                    </p>
+
+                    <h3>Professional</h3>
+                    <p>
+                        Designed for small businesses and growing projects. Adds structured development, improved accessibility, optional backend integration, and a more collaborative workflow.
+                    </p>
+
+                    <h3>Enterprise</h3>
+                    <p>
+                        Intended for platforms, products, or long-term projects. Includes scalable architecture, advanced APIs, full accessibility audits, and extended post-launch support.
+                    </p>
+                </details>
+            </section>
+
+            <hr>
+
+            <section class="container" id="tos" aria-labelledby="tos-heading">
+                <h1 id="tos-heading">Terms of Service</h1>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed maximus erat, a eleifend diam. Etiam fermentum mauris at risus cursus fringilla. Morbi nec porta dui. Maecenas iaculis mi a velit ultricies, ut tristique mi consectetur. Morbi ut purus vehicula, ullamcorper mauris a, tincidunt lectus. Aliquam massa quam, scelerisque at ornare vitae, sagittis sed sapien. Etiam dui tortor, porttitor non egestas non, tincidunt at leo. Vivamus pharetra quis elit sed rhoncus. Nulla facilisi.</p>
+                    <p>Duis velit neque, tempus ac fringilla non, sodales non diam. Aliquam mattis varius varius. Cras sagittis elit quis facilisis aliquam. Aenean molestie in nisi sit amet auctor. Nullam non velit et elit finibus tempor. Fusce euismod pharetra nulla, aliquam mattis neque finibus gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ligula sem, ornare sed dolor non, pretium aliquet erat.</p>
+                    <p>In convallis elit a elit rhoncus gravida. Maecenas iaculis, arcu id ullamcorper interdum, nisi massa maximus nisl, vitae molestie odio sapien et diam. Nunc tincidunt, dolor sed iaculis bibendum, dui massa tristique diam, id tincidunt eros nisi a arcu. Aliquam ornare ultricies libero, id varius nisl. Etiam pretium, mi at tristique dictum, massa arcu lacinia est, non egestas purus est nec ex. Maecenas efficitur accumsan augue vitae porta. Duis id odio eu felis sollicitudin euismod.</p>
+                    <p>Quisque varius nisi massa, in pulvinar odio tristique vel. Cras et nisl id dui imperdiet commodo nec quis eros. Etiam pulvinar ullamcorper lacus, eu malesuada tellus tempor sed. Nam commodo eu lacus sit amet eleifend. Nullam pulvinar elit rutrum velit porttitor aliquam. Aenean justo enim, hendrerit eu rhoncus sit amet, sollicitudin dapibus ante. Maecenas id viverra augue, ut cursus ligula. Phasellus at malesuada velit. Proin ante nulla, lacinia efficitur mollis nec, porta in ligula. Ut scelerisque justo eu risus mollis euismod. In sed pretium dolor, aliquam semper neque. Vestibulum ut laoreet ante. Mauris consectetur eu metus eget lobortis. Pellentesque molestie leo ut neque fermentum, eget lacinia sapien vestibulum.</p>
+                    <p>Sed quis leo lectus. Suspendisse pellentesque lacus eros, et bibendum ipsum viverra quis. Nullam sed molestie orci. Donec varius viverra nunc eu rhoncus. Praesent tincidunt augue ut fringilla iaculis. Cras ex risus, pharetra non orci nec, facilisis laoreet libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut et elit et eros fringilla consequat sed in lacus. Etiam lacinia lacus vel congue molestie. Sed vel tincidunt nulla. Aliquam id felis gravida, ullamcorper nisl pulvinar, iaculis elit. Vestibulum facilisis felis ipsum, a dignissim ligula tempus ac.</p>
+                    <p>Aliquam ut sodales orci, sed mollis mi. Praesent dolor augue, ornare eu nibh et, vulputate mattis erat. Ut semper auctor urna a sodales. Vivamus volutpat orci nulla, vel varius lorem tristique eget. Sed in lectus pulvinar nibh maximus tempor. Aenean lacus eros, pretium eu odio ac, luctus consectetur quam. Vestibulum rutrum aliquet aliquet. Aenean finibus lectus ut erat mattis malesuada. Suspendisse malesuada tortor neque, rutrum laoreet nisl sollicitudin eget. Nam tempus nunc id blandit ultricies. Duis dignissim ultrices fermentum. Donec ac mi egestas, lacinia nunc eu, semper quam. Suspendisse potenti. Nunc et orci libero. Etiam ultricies bibendum lorem, cursus molestie lorem finibus vitae. Integer luctus sed ipsum eu accumsan.</p>
+                    <p>Maecenas a pulvinar augue. Sed tincidunt lectus quis lorem fermentum, nec ornare tellus molestie. Quisque arcu ligula, lobortis ac rhoncus nec, vestibulum at sem. Vivamus laoreet ac nisl eu viverra. Nam nisl odio, ultrices sed lacinia nec, malesuada quis felis. Nulla aliquam a purus malesuada tristique. Quisque mollis est ut laoreet maximus. Aliquam faucibus nisl eu velit gravida, eu fermentum nulla placerat.</p>
+                    <p>Proin varius ipsum mauris, et ornare enim facilisis in. Suspendisse finibus orci vitae magna luctus venenatis. In consequat consequat ullamcorper. Integer a eros sapien. Cras commodo urna nec felis suscipit, vitae tincidunt sapien semper. Duis viverra finibus erat, eget consequat massa congue quis. Maecenas nec pretium ligula, vitae congue metus. Suspendisse pharetra hendrerit facilisis. In quis vulputate quam, eget laoreet mauris. Donec aliquam tempus nisi, at facilisis magna elementum non. Nam velit felis, bibendum eu orci quis, rutrum sollicitudin dui.</p>
+                    <p>Nullam facilisis, diam a condimentum blandit, diam eros ultrices justo, at eleifend diam odio quis massa. Sed ac nulla justo. Nulla non sapien eget nunc tristique rhoncus. Vestibulum dui turpis, suscipit eget risus et, ultrices tincidunt mi. Fusce tincidunt, turpis ac suscipit sollicitudin, dui dui molestie elit, ut feugiat orci quam et magna. Nulla laoreet libero ut turpis sollicitudin bibendum. Vestibulum gravida sapien malesuada quam commodo, iaculis maximus augue semper. Morbi varius tellus ut posuere maximus. Suspendisse venenatis sapien sapien, ut dictum leo cursus ac. Nunc erat ante, varius et est sit amet, consequat luctus turpis.</p>
+                    <p>Suspendisse pellentesque mi at placerat luctus. Curabitur lacinia arcu non dui porttitor, vitae feugiat diam accumsan. Vestibulum placerat risus non tortor ullamcorper pellentesque. Donec dui lorem, auctor et aliquam non, aliquam eu sapien. Aliquam pellentesque sapien nibh, ut posuere nisl malesuada nec. Morbi ultricies, lorem eget fringilla facilisis, tellus ex luctus arcu, vitae ultrices libero orci sit amet metus. Cras molestie condimentum consectetur. Nulla laoreet quam sit amet tellus egestas sagittis. Nulla sed magna viverra, pharetra dui vel, dictum tellus. Vivamus placerat nibh libero, id venenatis metus malesuada eget. Nam laoreet dolor neque, eget commodo leo sagittis nec.</p>
+                    <p>Quisque feugiat a nulla sit amet malesuada. Integer mollis euismod eros, a consectetur erat volutpat sit amet. Etiam finibus risus sit amet arcu faucibus tempor. Sed dictum vulputate ligula, a rutrum elit molestie a. Curabitur ultricies luctus massa, et congue enim ultrices vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Nulla in sollicitudin diam.</p>
+                    <p>Praesent sed ante metus. Nunc eu ornare massa. Vestibulum mattis ipsum quis tempor imperdiet. Etiam laoreet leo in eros lobortis suscipit. Vestibulum eget ligula facilisis, gravida velit id, molestie mi. Nam laoreet diam quam, ornare rhoncus lectus luctus et. Suspendisse posuere ex non augue gravida lobortis. Aliquam fermentum condimentum risus, vel laoreet nisi ornare non. Vestibulum eleifend diam sapien, id pharetra dui porta et. Mauris laoreet erat leo, placerat pellentesque neque facilisis sit amet. Pellentesque ornare, odio eu blandit dictum, est massa molestie neque, egestas laoreet nisl leo sodales ante. Nam sagittis, orci vel malesuada ultrices, justo neque luctus lacus, mollis euismod orci purus sed tellus.</p>
+                    <p>Mauris diam tellus, maximus non pharetra ac, elementum non arcu. Sed sit amet dolor vitae purus volutpat semper. Vestibulum leo magna, sollicitudin eget nisi non, vulputate gravida nunc. Maecenas vehicula ut orci at consectetur. Etiam ac magna sed nulla tristique sollicitudin eget sed arcu. Maecenas faucibus massa id libero rhoncus vestibulum. Duis vel eros consequat, aliquam dolor nec, condimentum tortor.</p>
+                    <p>Donec vitae augue eget velit porta tempor elementum non risus. Vivamus eros libero, laoreet vitae lorem nec, aliquam cursus velit. Nulla a tellus quis augue condimentum vestibulum. Nunc vestibulum massa ut interdum posuere. Sed ullamcorper in elit sit amet mattis. Fusce volutpat consequat lorem, vel aliquam odio aliquam ac. Pellentesque eget nunc non nunc molestie malesuada. Pellentesque vitae dui ex. Mauris tincidunt rhoncus ultrices. Mauris eget arcu sit amet mauris ultricies mollis placerat nec magna. Aliquam nec ornare nibh, sed scelerisque augue. Duis bibendum, ligula ac congue placerat, neque turpis interdum urna, sit amet dignissim quam urna quis lorem. Quisque in sapien lorem. Donec id sodales lectus. Proin non egestas orci, ut vulputate lectus.</p>
+                    <p>Phasellus ultrices tortor in viverra accumsan. Aliquam erat volutpat. Praesent elementum scelerisque mollis. In eget augue nec nisi consequat fermentum sed sit amet dolor. Praesent in risus elementum, suscipit tellus eu, porta ipsum. Etiam vel sagittis neque, ac molestie urna. Vestibulum pellentesque, sem eu feugiat eleifend, velit tortor egestas dolor, et ornare nunc velit eget urna. Nullam pharetra nec nulla non finibus. Sed elementum mi eget nisl accumsan, in interdum ipsum ornare. Duis fermentum nunc eget odio lobortis hendrerit. Pellentesque pharetra sapien accumsan ullamcorper faucibus. Maecenas condimentum, nibh et sodales ornare, justo dolor euismod mauris, sed ultricies eros enim ut sem. Donec quis rutrum mi. Fusce vel volutpat tortor.</p>
+                    <p>Proin luctus sodales ligula in euismod. Integer in cursus libero. Ut purus velit, blandit ac gravida vel, sagittis non nisi. Maecenas commodo quis lorem sit amet commodo. Aenean porttitor feugiat efficitur. Ut lobortis sit amet libero at scelerisque. Donec vitae ligula vel tellus interdum efficitur. Nullam in nibh vel nisi lacinia laoreet id sit amet arcu. Suspendisse tincidunt et mauris ac bibendum. Phasellus nulla ante, gravida nec congue at, imperdiet auctor orci. Donec ac iaculis nisl.</p>
+                    <p>Integer sed tincidunt felis, ac volutpat urna. Morbi sagittis ante ut ligula laoreet luctus. Nulla iaculis at enim sed semper. Etiam sollicitudin non sapien in porta. In venenatis venenatis libero, a sodales turpis gravida a. Pellentesque euismod urna ornare nisi vestibulum, id mollis metus pulvinar. Fusce posuere ex et odio vehicula finibus. Fusce nunc magna, imperdiet id lorem pulvinar, ornare pharetra nulla. Mauris arcu urna, ornare sed tellus a, convallis ultricies sapien. Morbi vel pretium neque. Sed iaculis est ut urna pharetra, ac interdum risus pharetra. Suspendisse at leo id leo ullamcorper tempus. Nulla eu dolor urna.</p>
+                    <p>Proin sed mauris sit amet justo interdum blandit vitae vel est. Vestibulum nunc leo, pulvinar sed mollis nec, sodales ac velit. Morbi dignissim in metus sed fringilla. Aliquam tincidunt quam at aliquet condimentum. Maecenas facilisis venenatis metus. Suspendisse feugiat nunc ac molestie tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam felis purus, volutpat ut justo sit amet, placerat varius massa. Mauris ullamcorper posuere condimentum. Sed imperdiet, felis et commodo accumsan, felis leo luctus mauris, quis ultricies turpis nisl a tortor. Proin purus enim, sollicitudin ut ultricies nec, fermentum sit amet tortor. Sed luctus libero ex, eget pretium sem blandit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est arcu, vestibulum ut mi vitae, bibendum blandit dolor.</p>
+                    <p>Nullam ac pellentesque lectus, id tempor augue. Donec facilisis placerat sem, eu malesuada erat. Ut nulla elit, tempus id elementum tempor, porta sed enim. Vivamus lectus lorem, accumsan vitae consequat vitae, fringilla ut felis. Aenean gravida sollicitudin ullamcorper. Suspendisse eget malesuada odio, scelerisque fermentum nulla. Sed quam magna, suscipit eget nisi egestas, volutpat fringilla purus. Donec id libero ut purus convallis interdum in vitae augue. Donec pulvinar lorem orci, sit amet vulputate erat mollis viverra. Ut quis molestie sem. In nec lacus rutrum, elementum ipsum eu, placerat diam. Quisque vel purus at enim semper aliquam a at ante. Quisque justo massa, mattis quis lectus in, maximus egestas diam.</p>
+                    <p>Maecenas laoreet magna nec neque vestibulum, a mattis eros placerat. Sed molestie rhoncus imperdiet. Phasellus quis elementum dolor. Quisque lobortis lacus eget nulla sollicitudin, ut tincidunt ex auctor. Duis vitae consectetur tortor. Donec eget diam et justo ornare venenatis sit amet non justo. Nunc eget nisi facilisis nulla auctor scelerisque. Aenean dignissim auctor consequat. Vivamus et risus a nisi condimentum finibus et vitae ligula. Mauris felis leo, semper quis dui in, dapibus scelerisque dolor. Maecenas sed aliquam elit, hendrerit congue justo. Mauris consequat dui id justo tempor, at eleifend diam euismod. Aliquam et neque ornare, pulvinar augue eget, fermentum leo. Sed convallis est ipsum, dignissim mollis nibh congue ut.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <span class="copyright">Jemma Starecki</span>
+        </footer>
+
+        <script src="script/script.js"></script>
+    </body>
+</html>
